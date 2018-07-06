@@ -23,43 +23,7 @@
 	<!--id="dlg"，是一个对话框 ,并设置属性为不可关 -->
 	<div id="loginDlg">
 		<form id="loginForm">
-			<table cellpadding="6">
-				<!-- 第一行：项目图片处 -->
-				<tr>
-					<td colspan="2"><img src="/Examination3.0/images/logo.png"
-						width="260px"></img></td>
-				</tr>
-
-				<!--第二行： 身份选择处 -->
-				<tr>
-					<td>身&nbsp;&nbsp;份:</td>
-					<td>
-						<!-- 默认选中的是学员的 --> 
-						<input type="radio" name="identity" value="1"
-							checked/>学员 &nbsp;&nbsp;&nbsp;&nbsp; 
-						<input
-							type="radio" name="identity" value="2" />教员
-					</td>
-				</tr>
-				<!-- 第三行：姓名行 -->
-				<tr>
-					<td id="logNameType">学&nbsp;&nbsp;号:</td>
-					<td><input type="text" name="uname"></input></td>
-				</tr>
-				<!-- 第四行：密码行 -->
-				<tr>
-					<td>密&nbsp;&nbsp;码:</td>
-					<td><input type="password" name="upassword" /></td>
-				</tr>
-				<!-- 第五行：验证码输入行 -->
-				<tr>
-					<td>验证码:</td>
-					<td>
-						<input type="text" name="validateCode" style="width:100px;" id="validateCode"/> 
-						<img id="randImg" src="image.action" align="top" title="换一张" onclick="loadImage()"/>
-					</td>
-				</tr>
-			</table>
+			<img src="images/choose.png"/>
 		</form>
 		<!-- 登录按钮 -->
 		<div id="loginBtnDiv">
